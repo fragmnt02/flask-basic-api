@@ -6,7 +6,7 @@ json_data = open(file_directory).read()
 data = json.loads(json_data)
 
 
-class Pokemon:
+class Person:
     def __init__(self, id):
         self.id = id
         self.name = data[self.id]['name']
